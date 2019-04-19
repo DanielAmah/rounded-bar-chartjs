@@ -1,0 +1,22 @@
+{
+  "name": "rounded-bar-chartjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rounded-bar-chart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielAmah/rounded-bar-chartjs.git"
+  },
+  "author": "Daniel Amah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielAmah/rounded-bar-chartjs/issues"
+  },
+  "homepage": "https://github.com/DanielAmah/rounded-bar-chartjs#readme",
+  "dependencies": {
+    "react-chartjs-2": "^2.7.6"
+  }
+}
