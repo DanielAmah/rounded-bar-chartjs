@@ -6,9 +6,9 @@
 This barchart helper extends the barchart element
 in the chart component and gives it a rounded top
 */
-import { Chart } from 'react-chartjs-2';
+const Chart = require('react-chartjs-2').Chart;
 
-const roundedBarChart = () => {
+const RoundedBarChart = function () {
   Chart.helpers.drawRoundedTopRectangle = function (ctx, x, y, width, height, radius) {
     ctx.beginPath();
     ctx.moveTo(x + radius, y);
@@ -114,4 +114,4 @@ const roundedBarChart = () => {
   });
 };
 
-module.exports = roundedBarChart;
+module.exports = RoundedBarChart;
